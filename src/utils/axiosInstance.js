@@ -1,12 +1,12 @@
 import axios from 'axios'
 
 const axiosInstance = axios.create({
-    baseURL: "http://13.39.50.127:8000",
+    baseURL: "http://35.180.87.23:8000",
     timeout: 10000
 })
 
 const axiosInstanceToken = axios.create({
-    baseURL: "http://13.39.50.127:8000",
+    baseURL: "http://35.180.87.23:8000",
     timeout: 10000
 })
 
